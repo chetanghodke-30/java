@@ -1,0 +1,31 @@
+package inheritance;
+
+   class Student {
+   int roll_no=23;
+   String name="Chetan Ghodke";
+  
+   void Display()
+   {
+	   System.out.println("student roll_no:"+roll_no);
+	   System.out.println("student name:"+name);
+   }
+
+  
+
+
+public class library extends Student  {
+	   int membership_no=300;
+	   void show() {
+		   System.out.println("welcome");
+		   System.out.println("student membership id:"+membership_no);
+	   }
+ }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		library a=new library();
+		a.show();
+		a.Display();
+
+	}
+
+}

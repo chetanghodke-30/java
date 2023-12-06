@@ -1,0 +1,17 @@
+package inheritance;
+
+public class employee {
+	int salary=40000;
+}
+class Programmer extends employee
+{
+	int bonus=10000;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Programmer p=new Programmer();
+System.out.println("The salary is :- "+p.salary);
+System.out.println("The bonus is"+p.bonus);
+	}
+
+}

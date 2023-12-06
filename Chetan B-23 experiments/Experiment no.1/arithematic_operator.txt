@@ -1,0 +1,50 @@
+package arithmetic;
+
+
+public class arithematic_operator {
+	int add(int a,int b)
+	{
+		int sum;
+		sum=a+b;
+		return sum;
+	}
+	
+	int sub(int a,int b)
+	{
+		int sub;
+		sub=a-b;
+		return sub;
+	}
+	
+	float multi(float a,float b)
+	{
+		float multiplication;
+		multiplication=a*b;
+		return multiplication;
+	}
+	
+	float div(float a,float b)
+	{
+		float div;
+		div=a/b;
+		return div;
+	}
+
+;	public static void main(String[] args) {
+		
+		arithematic_operator obj=new arithematic_operator();
+		System.out.println("sum is "+obj.add(34,56));
+		System.out.println("sub is "+obj.sub(26, 12));
+		System.out.println("multiplication is "+obj.multi(56,03));
+		System.out.println("division is "+obj.div(100,10));
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+OUTPUT:
+sum is 90
+sub is 14
+multiplication is 168.0
+division is 10.0

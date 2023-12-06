@@ -1,0 +1,35 @@
+package java_class;
+
+public class mathandstring {
+
+	public static void main(String[] args) {
+		
+		String a=" Chetan ";
+		String b=" Ghodke ";
+		System.out.println(a.charAt(6));
+		System.out.println(a.concat(b));
+		System.out.println(a.toLowerCase()+b.toLowerCase());
+		System.out.println(a.toUpperCase());
+		System.out.println(a.length());
+		System.out.println(Math.pow(4, 2));
+		System.out.println(Math.max(8, 6));
+		System.out.println(Math.min(3, 6));
+		System.out.println(Math.sqrt(121));
+		System.out.println(Math.abs(-243.84));
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+OUTPUT:
+ Chetan  Ghodke 
+ chetan  ghodke 
+ CHETAN 
+8
+16.0
+8
+3
+11.0
+243.84
